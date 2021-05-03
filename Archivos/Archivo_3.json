@@ -1,0 +1,27 @@
+[
+  {
+    "nombre": "Fernando", 
+    "trabajo" : "Programador", 
+    "edad" : "21"
+  }, 
+  {
+    "nombre": "Diego", 
+    "trabajo" : "Jugador profesional de Futbol", 
+    "edad" : "17"
+  }, 
+  {
+    "nombre": "Luis Alberto", 
+    "trabajo" : "Carpintero", 
+    "edad" : "25"
+  }, 
+  {
+    "nombre": "Fernanda", 
+    "trabajo" : "Arquitecto", 
+    "edad" : "28"
+  },
+  {
+    "nombre": "Jade", 
+    "trabajo" : "Empresaria", 
+    "edad" : "20"
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "empleados" : [
+    {
+      "nombre": "Jorge", 
+      "trabajo" : "Industrial", 
+      "edad" : "21"
+    }, 
+    {
+      "nombre": "Karina", 
+      "trabajo" : "Jugador profesional de Futbol", 
+      "edad" : "17"
+    }, 
+    {
+      "nombre": "Luis Santiago", 
+      "trabajo" : "Carpintero", 
+      "edad" : "25"
+    }, 
+    {
+      "nombre": "Muerta", 
+      "trabajo" : "Programadora", 
+      "edad" : "21"
+    },
+    {
+      "nombre": "Jade XD", 
+      "trabajo" : "Empresaria", 
+      "edad" : "20"
+    }
+  ],
+
+  "temporales" : [
+    {
+      "nombre": "Angela", 
+      "trabajo" : "Bombero", 
+      "edad" : "24"
+    },
+    
+    {
+      "nombre": "Ana Gabriel", 
+      "trabajo" : "Cantante", 
+      "edad" : "25"
+    },
+    {
+      "nombre": "Angel Sladivar", 
+      "trabajo" : "Portero", 
+      "edad" : "29"
+    },
+    {
+      "nombre": "Ana Maria", 
+      "trabajo" : "Chofer", 
+      "edad" : "20"
+    }
+
+  ]
+}
+

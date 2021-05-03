@@ -1,0 +1,87 @@
+XML es un lenguaje de marcado de informacion, lenguaje de estructura ().
+
+JSON rempalzado por JSON hace lo mismo que XML pero ahora se usa JSON
+
+peticiones objeto XMLHttpRequest creador por microfors
+
+javaScript asíncrono
+
+console.log('a')
+setTimeout(() =>{
+  console.log('b')
+}, 1000);
+
+console.log('c');
+
+// a
+
+// c
+
+// b (1 segundo despues);
+
+************************************
+ejemplo dos 
+
+let b 
+console.log('a')
+setTimeout(() =>
+  b = 'hola'
+, 1000);
+console.log(b.lenght());
+
+***********************************
+
+callback -> cuando se ejecuta uno, 
+
+promesas 
+
+let promesa = () => {
+  return new Promise((resolve, reject) => {
+    resolve(hacerAlgo)
+    reject(hacerOtraCosa)
+  });
+}
+
+promesa()
+.then(function)
+.catch(otrafuncion)
+
+************************************
+
+
+AJAX 
+
+
+CLIENTE  --1---    SERVIDOR
+   |                 |
+   |                 |
+   |                 |
+   -- - - --2 - -  - |
+
+   1- PETICION 
+
+   2.- RESPUESTA
+
+
+   websockets
+
+
+   canal de comuncación abierta
+   (comunicacion bidireccional)
+    ajax --> ejemplo de mensaje de whatsapp
+
+    websockets ---> llamada telefonica
+
+
+    ejemplo de un websockets
+
+    let ws = new Websocket(url)
+
+    ws.onopen = notificar que estoy conectado --> verificar si ya se conecto
+    ws.send('Hola servidor')
+    ws.onmessage = leer Mensaje del SERVIDOR
+
+    ws.onclose = adiosServisor
+
+    obviamente el servidor debe de estar configurado
+
